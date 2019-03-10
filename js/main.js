@@ -171,14 +171,14 @@ $(document).ready(function() {
 		separator : ' ',
 		decimal : '.',
 		prefix : '',
-		suffix : ''
+		suffix : '+'
 	};
 
 	// Set the count up numbers
-	var countup_1 = new CountUp("counter-1", 0, 4500, 0, 2.5, options);
-	var countup_2 = new CountUp("counter-2", 0, 153, 0, 2.5, options);
-	var countup_3 = new CountUp("counter-3", 0, 49, 0, 2.5, options);
-	var countup_4 = new CountUp("counter-4", 0, 978, 0, 2.5, options);	
+	var countup_1 = new CountUp("counter-1", 0, 500, 0, 5, options);
+	var countup_2 = new CountUp("counter-2", 0, 100, 0, 3, options);
+	var countup_3 = new CountUp("counter-3", 0, 2, 0, 2);
+	var countup_4 = new CountUp("counter-4", 0, 1, 0, 2);	
 	
 	var $CounterStart = $('#countup' );
 
