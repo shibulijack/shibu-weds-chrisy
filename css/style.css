@@ -123,6 +123,11 @@ button i {
 #controlBar_video-wrap{
 	z-index: -1 !important;
 }
+.card {
+	padding: 10px;
+    border-radius: 4px;
+    background: #f8f6f8;
+}
 
 
 /* 2 Nav

@@ -6,7 +6,7 @@
 
 		"use strict";
 		// Load the page and wait 1s.
-	    $('#loader').delay( 1000 ).fadeOut('slow');	
+	    $('#loader').delay( 500 ).fadeOut('slow');	
 
 	});
 
