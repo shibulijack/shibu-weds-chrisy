@@ -174,8 +174,8 @@ $(document).ready(function() {
 	};
 
 	// Set the count up numbers
-	var countup_1 = new CountUp("counter-1", 0, 500, 0, 5, options);
-	var countup_2 = new CountUp("counter-2", 0, 100, 0, 3, options);
+	var countup_1 = new CountUp("counter-1", 0, 300, 0, 5, options);
+	var countup_2 = new CountUp("counter-2", 0, 500, 0, 7, options);
 	var countup_3 = new CountUp("counter-3", 0, 2, 0, 2);
 	var countup_4 = new CountUp("counter-4", 0, 1, 0, 2);	
 	
@@ -208,9 +208,9 @@ $(document).ready(function() {
 			}
 		});
 
-		$grid.imagesLoaded().progress( function() {
-	        $grid.isotope('layout');
-	    });
+		// $grid.imagesLoaded().progress( function() {
+	  //       $grid.isotope('layout');
+	  //   });
 	};
 
 	// filter functions
@@ -318,6 +318,7 @@ $(document).ready(function() {
 		animateIn: 'flipInX',
 		touchDrag: true,
 		autoplay:true,
+		autoplayHoverPause: true,
 		loop:true,
 		items:1,
 		margin:30,

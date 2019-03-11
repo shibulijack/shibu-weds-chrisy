@@ -488,11 +488,11 @@ footer h2 {
 /* 6 About Section
 ==================================================== */
 .about-content h4 {
-    font-weight: 300;
+    font-size: 2rem;
     line-height: 1.625em;
     margin-bottom: 1rem;
     margin-top: 1rem;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Dancing Script', cursive;
 }
 .social-link {
     padding: 0;
@@ -717,7 +717,6 @@ footer h2 {
 	font-weight: 300;
 }
 #people h4{
-    font-weight: 300;
     line-height: 1.625em;
     margin-bottom: 19px;
     margin-top: 19px;
@@ -725,18 +724,21 @@ footer h2 {
 }
 
 .people-img{
-	width: 132px;
+	width: 144px;
     float: none;
     display: inline-block;
     margin-left: 15px;
     padding: 0;
 }
 
+.people-img h6 {
+    margin-bottom: 0.5rem;
+}
+
 .people-img img{
-	border-radius: 3px;
+	border-radius: 4px;
     height: auto;
     width: 100%;
-    margin-bottom: 1.5em;
 }
 
 /* 11 Twitter Section
