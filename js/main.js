@@ -54,9 +54,9 @@ $(document).ready(function() {
 			animationDuration: 1e4,
 			slides: [
 				{ src: "./img/portfolio_1.jpg" },
-				{ src: "./img/portfolio_2.jpg" },
-				{ src: "./img/portfolio_3.jpg" },
-				{ src: "./img/portfolio_4.jpg" }
+				{ src: "./img/portfolio_2.jpg", align: "left" },
+				{ src: "./img/portfolio_3.jpg", align: "70%" },
+				{ src: "./img/portfolio_4.jpg", align: "30%" }
 			]
 		});
 	}
@@ -208,9 +208,9 @@ $(document).ready(function() {
 			}
 		});
 
-		// $grid.imagesLoaded().progress( function() {
-	  //       $grid.isotope('layout');
-	  //   });
+		$grid.imagesLoaded().progress( function() {
+				$grid.isotope('layout');
+		});
 	};
 
 	// filter functions
