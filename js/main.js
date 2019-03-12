@@ -300,7 +300,6 @@ $(document).ready(function() {
 		autoplay: true,
 		autoplayHoverPause: true,
 		nav: true,
-		loop: false,
 		responsive:{
 			0:{
 				items:1
