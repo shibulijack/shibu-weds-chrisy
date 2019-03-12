@@ -974,15 +974,20 @@ footer h2 {
 }
 
 #gift-carousel .item{
-	background: none repeat scroll 0 0 #fff;
-    border: 1px solid #cecece;
-    border-radius: 3px;
+	background: none repeat scroll 0 0 #fafafa;
+    border: 1px solid #eee;
+    border-radius: 4px;
     color: #444;
     margin: 1em;
-    padding: 10px;
+    padding: 16px;
     margin-bottom: 2em;
-    text-align: center;
+	text-align: center;
 }
+#gift-carousel .item img{
+	max-width: 160px;
+	margin: auto;
+}
+
 .owl-theme .owl-controls .owl-page span {
     background: none repeat scroll 0 0 #d2d2d2;    
     -webkit-transition: all ease-in-out 300ms;    

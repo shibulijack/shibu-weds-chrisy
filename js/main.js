@@ -297,19 +297,19 @@ $(document).ready(function() {
 		margin:10,
 		touchDrag: true,
 		responsiveClass:true,
+		autoplay: true,
+		autoplayHoverPause: true,
+		nav: true,
+		loop: false,
 		responsive:{
 			0:{
-				items:1,
-				nav:false
+				items:1
 			},
 			600:{
-				items:2,
-				nav:false
+				items:2
 			},
 			1000:{
-				items:4,
-				nav:false,
-				loop:false
+				items:3
 			}
 		}
 	})
