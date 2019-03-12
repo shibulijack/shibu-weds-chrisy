@@ -683,10 +683,14 @@ footer h2 {
     border-bottom: 3px solid #de037f;
 }
 .img-date-left{
-	left: 2rem;
+	left: 1rem;
 }
-.img-date-left .day{
-
+.img-date-right{
+	right: 1rem;
+}
+.img-date-left .day,
+.img-date-right .day{
+	font-weight: 600;
 }
 .img-date-left .month,
 .img-date-right .month{
@@ -1496,9 +1500,6 @@ select.form-control:not([size]):not([multiple]) {
 	.big-head-wrap{
 		top: 2px;
 	}
-	.img-date-right{
-		left: 2rem;
-	}
 	/* people */
 	.people-img {
 	    margin-left: 0;
@@ -1569,9 +1570,6 @@ select.form-control:not([size]):not([multiple]) {
 	.tline-thumbnail{
 		margin-bottom: 1rem;
 	}
-	.img-date-right{
-		left: 2rem;
-	}
 
 	/* people */
 	.people-img {
@@ -1627,9 +1625,6 @@ select.form-control:not([size]):not([multiple]) {
 	.tline-right-side .tline-arrow:after {
 	    display: none;
 	}
-	.img-date-right{
-		right: 2rem;
-	}
 
 	/* event */
 	.pr-70{
@@ -1655,9 +1650,6 @@ select.form-control:not([size]):not([multiple]) {
 	.big-head-wrap{
 		top: -28px;
 	}
-	.img-date-right{
-		right: 2rem;
-	}
 	.dropdown-menu {
 	    border-top: 3px solid #de037f;
 	}
@@ -1677,9 +1669,6 @@ select.form-control:not([size]):not([multiple]) {
 	/* Nav */
 	nav .dropdown:hover .dropdown-menu {
 		display: block;
-	}
-	.img-date-right{
-		right: 2rem;
 	}
 	.dropdown-menu {
 	    border-top: 3px solid #de037f;
