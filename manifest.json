@@ -1,0 +1,20 @@
+{
+  "name": "Shibu Weds Chrisy",
+  "short_name": "Shibu Weds Chrisy",
+  "description": "With great pleasure, Shibu Lijack and Chrislin Deborah invite you to join them at the celebration of their marriage on May 23, 2019.",
+  "icons": [{
+      "src": "img/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "img/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#de037f",
+  "background_color": "#f5f5f5",
+  "start_url": "/index.html",
+  "display": "standalone"
+}
