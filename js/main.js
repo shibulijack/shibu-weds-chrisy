@@ -57,7 +57,8 @@ $(document).ready(function() {
 				{ src: "./img/portfolio_2.jpg", align: "left" },
 				{ src: "./img/portfolio_3.jpg", align: "70%" },
 				{ src: "./img/portfolio_4.jpg", align: "30%" }
-			]
+			],
+			overlay: './vendor/vegas/dist/overlays/01.png'
 		});
 	}
 
