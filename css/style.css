@@ -34,13 +34,13 @@
 	z-index: 3;
 }
 .img-overlay{
-	background: rgba(0, 0, 0, 0.45);	
+	background-color: rgba(0, 0, 0, 0.5);	
 	height: 100%;
 	left: 0;
 	position: absolute;
 	top: 0;
 	width: 100%;
-	z-index: 2;
+	/* z-index: 2; */
 }
 .img-map{
 	width: 10rem;
@@ -522,7 +522,11 @@ footer h2 {
 /* 7 Comment Section
 ==================================================== */
 #comment{
-	background: url("../img/comment_bg.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+	background-image: url('../img/portfolio_8.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 #comment h3{
 	font-weight: 200;
