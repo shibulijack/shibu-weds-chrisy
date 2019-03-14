@@ -14,6 +14,11 @@ $(document).ready(function() {
 
 	"use strict";
 
+	var urlParams = new URLSearchParams(window.location.search);
+	if(!urlParams.has('gift')) {
+		$('.gift-section').hide();
+	}
+
 
 	/* AOS
 	-----------------------------------------------------------------------------------*/
@@ -55,7 +60,7 @@ $(document).ready(function() {
 			slides: [
 				{ src: "./img/portfolio_1.jpg" },
 				{ src: "./img/portfolio_2.jpg", align: "left" },
-				{ src: "./img/portfolio_3.jpg", align: "70%" },
+				{ src: "./img/portfolio_7.jpg", align: "30%" },
 				{ src: "./img/portfolio_4.jpg", align: "30%" }
 			],
 			overlay: './vendor/vegas/dist/overlays/01.png'
