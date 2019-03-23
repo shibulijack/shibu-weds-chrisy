@@ -110,6 +110,9 @@ button i {
 	background: #de037f;
 	color: #fff;
 }
+.fill-btn:hover, .fill-btn:focus {
+	color: #fff;
+}
 .transparent-btn{
 	background: transparent;
 	color: #de037f;
@@ -1073,6 +1076,125 @@ label {
 select.form-control:not([size]):not([multiple]) {
     height: calc(2.25rem + 14px);
 }
+
+
+/* Save the date
+==================================================== */
+.addEvent {
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	background: #fff;
+	/* font-family: "Open Sans", Roboto, Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif; */
+	font-weight: 400;
+	color: #333!important;
+	/* font-size: 15px; */
+	/* line-height: 100%; */
+	-webkit-box-shadow: 0 0 0 0.5px rgba(50, 50, 93, .17), 0 2px 5px 0 rgba(50, 50, 93, .1), 0 1px 1.5px 0 rgba(0, 0, 0, .07), 0 1px 2px 0 rgba(0, 0, 0, .08), 0 0 0 0 transparent!important;
+	-moz-box-shadow: 0 0 0 0.5px rgba(50, 50, 93, .17), 0 2px 5px 0 rgba(50, 50, 93, .1), 0 1px 1.5px 0 rgba(0, 0, 0, .07), 0 1px 2px 0 rgba(0, 0, 0, .08), 0 0 0 0 transparent!important;
+	box-shadow: 0 0 0 0.5px rgba(50, 50, 93, .17), 0 2px 5px 0 rgba(50, 50, 93, .1), 0 1px 1.5px 0 rgba(0, 0, 0, .07), 0 1px 2px 0 rgba(0, 0, 0, .08), 0 0 0 0 transparent!important;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+.addEvent:hover {
+	background-color: #f8f8f8;
+}
+.addEvent .date {
+	width: 50px;
+	height: 64px;
+	float: left;
+	position: relative;
+}
+.addEvent .date .mon {
+	display: block;
+	text-align: center;
+	padding: 14px 0px 0px 0px;
+	font-size: 10px;
+	color: #bf5549;
+	font-weight: bold;
+	line-height: 110%;
+	text-transform: uppercase;
+}
+.addEvent .date .day {
+	display: block;
+	text-align: center;
+	padding: 0px 0px 8px 0px;
+	font-size: 28px;
+	font-weight: bold;
+	color: #333;
+	line-height: 100%;
+}
+.addEvent .date .bdr1 {
+	width: 1px;
+	height: 54px;
+	background: #eaeaea;
+	position: absolute;
+	z-index: 100;
+	top: 5px;
+	right: -3px;
+}
+.addEvent .date .bdr2 {
+	width: 1px;
+	height: 54px;
+	background: #fff;
+	position: absolute;
+	z-index: 100;
+	top: 5px;
+	right: -4px;
+}
+.addEvent .desc {
+	height: 64px;
+	float: left;
+	position: relative;
+	padding: 0px 15px 0px 0px;
+}
+.addEvent .desc p {
+	margin: 0;
+	display: block;
+	text-align: left;
+	padding: 7px 0px 0px 15px;
+	font-size: 11px;
+	color: #666;
+	line-height: 130%;
+}
+.addEvent .desc .hed {
+	display: block;
+	overflow: hidden;
+	margin-bottom: 6px;
+	font-size: 14px;
+	color: #333;
+	text-transform: uppercase;
+}
+.addEvent .desc .des {
+	display: block;
+	overflow: hidden;
+}
+.addEvent-selected {
+	background-color: #f4f4f4;
+}
+.addEvent .start,
+.addEvent .end,
+.addEvent .timezone,
+.addEvent .title,
+.addEvent .description,
+.addEvent .location,
+.addEvent .organizer,
+.addEvent .organizer_email,
+.addEvent .facebook_event,
+.addEvent .all_day_event,
+.addEvent .date_format,
+.addEvent .alarm_reminder,
+.addEvent .recurring,
+.addEvent .attendees,
+.addEvent .calname,
+.addEvent .uid,
+.addEvent .status,
+.addEvent .method,
+.addEvent .client,
+.addEvent .transp {
+	display: none!important;
+}
+
 
 
 /* 18 Footer Section
